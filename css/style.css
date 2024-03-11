@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("./fonts/Gilroy-Medium.ttf") format("ttf"),
+       url("./fonts//Gilroy-Semibold.ttf") format("ttf");
+}
+
+.Root{
+  background-color: #282828;
+  font-family: "Gilroy";
+  color: #FFFFFF;
+  font-size: 18px;
+  margin: 0%;
+}
+.textSpan{
+  color: #A9A9A9;
+  font-size: 14px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #565656;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+  .container {
+    display: flex;
+    align-items: top;
+    height: 236px;
+    background-color: #333333;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    margin: 0%;
+  }
+
+  .btnCenter{
+    display: block;
+    border-radius: 20px;
+    height: 86px;
+    width: 292px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+  .btn{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 200px;
+  }
+  .styleBtn{
+    background-color: #333333;
+    border-radius: 20px;
+    height: 67px;
+  }
