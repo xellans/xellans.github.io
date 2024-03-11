@@ -30,11 +30,13 @@ body{
 }
 
 .Search {
+  display: inline-block;
   background: #141414;
-  border-radius: 8px; 
+  border-radius: 18px 18px 8px 8px;
   border: 1px solid #1D1D1D;
   margin:0 14px 0 14px;
-  transform: perspective(37px) scaleZ(1) rotateX(2deg);
+  clip-path: polygon(2% 0, 98% 0, 100% 100%, 0% 100%);
+  /* transform: perspective(37px) scaleZ(1) rotateX(2deg); */
 }
 
 
@@ -42,18 +44,15 @@ body{
   align-items: center;
   width: 100%;
   margin: 0%;
-  transform: perspective(37px) scaleZ(1) rotateX(-2deg);
+  /* transform: perspective(37px) scaleZ(1) rotateX(-2deg); */
 }
 .inputStyle{
   background-color: transparent;
-  font-family: "Gilroy";
-  font-weight: Medium;
   color: #E2E2E2;
   border: transparent;
-  position:absolute;
   top:0px;
   height: 37px;;
-  width: 85%;
+  width: 80%;
   margin-left: 18px;
 }
 
