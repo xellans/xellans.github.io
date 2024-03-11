@@ -21,7 +21,7 @@ body{
 
 .Main{
   display: grid;
-  grid-template-rows: auto 37px auto;
+  grid-template-rows: 61px 37px auto;
   background-color: #0E0E0E;
   margin: 0%;
   padding: 0%;
@@ -48,7 +48,7 @@ body{
   background-color: transparent;
   font-family: "Gilroy";
   font-weight: Medium;
-  color: #FFFFFF;
+  color: #E2E2E2;
   border: transparent;
   position:absolute;
   top:0px;
@@ -60,7 +60,6 @@ body{
 .inputStyle::placeholder {
   font-family: "Gilroy";
   font-weight: Medium;
-  opacity: 0.5;
   color: #585858;
 }
 input:focus,
