@@ -4,13 +4,79 @@
        url("./fonts//Gilroy-Semibold.ttf") format("ttf");
 }
 
-.Root{
-  background-color: #282828;
+
+
+body{
+  display: grid;
+  align-items: center;
+  justify-items: center;
   font-family: "Gilroy";
   color: #FFFFFF;
   font-size: 18px;
   margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 100vh;
 }
+
+.Main{
+  display: grid;
+  grid-template-rows: auto 37px 100vh;
+  background-color: #0E0E0E;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 100vh;
+}
+
+.Search {
+  background: #141414;
+  border-radius: 8px; 
+  border: 1px solid #1D1D1D;
+  margin:0 14px 0 14px;
+  transform: perspective(37px) scaleZ(1) rotateX(2deg);
+}
+
+
+.containerInput {
+  align-items: center;
+  width: 100%;
+  margin: 0%;
+  transform: perspective(37px) scaleZ(1) rotateX(-2deg);
+}
+.inputStyle{
+  background-color: transparent;
+  color: #FFFFFF;
+  border: transparent;
+  position:absolute;
+  top:0px;
+  height: 37px;;
+  width: 85%;
+  margin-left: 18px;
+}
+
+.inputStyle::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: #585858;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    background-color: transparent;
+    outline: none;
+}
+
+
+
+.dedpay{
+  background-image: url("./svg/dedpay.svg");
+  height: 25px;
+  width: 126px;
+  background-size: contain;
+}
+
 .textSpan{
   color: #A9A9A9;
   font-size: 14px;
